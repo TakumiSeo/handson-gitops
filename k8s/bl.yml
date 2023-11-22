@@ -24,7 +24,7 @@ spec:
         color: blue
     spec:
       containers:
-      - image: docker.io/takuyak/nginx-sample-gr:v2
+      - image: docker.io/takumiseo/handson-ci-image:f37276c2618b6bb60b78c47143cf34ae386fa8d1
         name: blue
         ports:
           - containerPort: 80
